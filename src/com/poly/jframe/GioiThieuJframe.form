@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="683" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="162" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Events>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="lblTitleAncestorAdded"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;M&#xf4; h&#xec;nh kinh doanh ph&#xf2;ng tr&#x1ecd; &#x111;ang tr&#x1edf; n&#xea;n ph&#x1ed5; bi&#x1ebf;n khi ng&#xe0;y m&#x1ed9;t nhi&#x1ec1;u nh&#x1eef;ng bi&#x1ec3;n th&#xf4;ng b&#xe1;o&lt;br&gt;&#xa; &#x201c;Cho thu&#xea; ph&#xf2;ng gi&#xe1; r&#x1ebb;&#x201d; m&#x1ecd;c l&#xea;n kh&#x1eaf;p n&#x1a1;i. Nh&#x1eef;ng t&#x1b0;&#x1edf;ng ch&#x1ecd;n l&#x1ef1;a kinh doanh m&#xf4; h&#xec;nh n&#xe0;y d&#x1ec5; th&#xe0;nh c&#xf4;ng,&lt;br&gt;&#xa; nh&#x1b0;ng vi&#x1ec7;c thi&#x1ebf;u kinh nghi&#x1ec7;m qu&#x1ea3;n l&#xfd; nh&#xe0; tr&#x1ecd; l&#x1ea1;i l&#xe0;m cho c&#xe1;c ch&#x1ee7; kinh doanh d&#x1ec5; th&#x1ea5;t b&#x1ea1;i.&lt;br&gt;&#xa;&#xa;Ph&#x1ea3;i kinh doanh r&#x1ed3;i m&#x1edb;i th&#x1ea5;y lo&#x1ea1;i h&#xec;nh kinh doanh n&#xe0;y ph&#xe1;t sinh r&#x1ea5;t nhi&#x1ec1;u v&#x1ea5;n &#x111;&#x1ec1; ph&#x1ee9;c t&#x1ea1;p,&lt;br&gt;&#xa; m&#xe0; ch&#x1ee7; y&#x1ebf;u &#x111;&#x1ebf;n t&#x1eeb; vi&#x1ec7;c nh&#x1eef;ng ng&#x1b0;&#x1edd;i thu&#xea; nh&#xe0; kh&#xf4;ng tu&#xe2;n th&#x1ee7;&lt;br&gt;&#xa;&#xa;T&#x1eeb; nh&#x1eef;ng vi&#x1ec7;c nh&#x1ecf; nh&#x1b0; gi&#x1edd; gi&#x1ea5;c sinh ho&#x1ea1;t th&#x1ea5;t th&#x1b0;&#x1edd;ng, thanh to&#xe1;n ti&#x1ec1;n &#x111;i&#x1ec7;n &#x2013;  n&#x1b0;&#x1edb;c ch&#x1ead;m, &#x111;&#x1ebf;n nh&#x1eef;ng&lt;br&gt;&#xa; vi&#x1ec7;c nh&#x1b0; g&#xe2;y g&#x1ed7;, m&#x1ea5;t tr&#x1ead;t t&#x1ef1; an ninh&#x2026;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/img/logo1.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
